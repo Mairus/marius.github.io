@@ -2551,8 +2551,8 @@ input, select, textarea {
 					color: #3e4094;
 				}
 
-				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+				.wrapper.style3 .icon.major:before {         /****************************/
+					color: #e1671b;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3201,6 +3201,52 @@ input, select, textarea {
 
 /* Wrapper */
 
+    .title_intro{
+		position: absolute;
+		top: 50%;
+		left: 22%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+	}
+
+	@media screen and (max-width: 3840px) {
+		.title_intro {
+			top: 50%;
+			left: 28%;
+			transform: translate(-50%, -50%);
+		}
+
+	}
+	
+	@media screen and (max-width: 1680px) {
+		.title_intro {
+			top: 50%;
+			left: 24%;
+			transform: translate(-50%, -50%);
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+		.title_intro {
+			top: 50%;
+			left: 25%;
+			transform: translate(-50%, -50%);
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+		.title_intro {
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+	}
+	
+
+
 	.wrapper {
 		position: relative;
 	}
@@ -3240,7 +3286,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #371098; /* COLOR OF BACKGROUND SECTION INTRO */
 		}
 
 		.wrapper.style1-alt {
@@ -3256,7 +3302,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #e1671b;
 		}
 
 		.wrapper.style3-alt {
